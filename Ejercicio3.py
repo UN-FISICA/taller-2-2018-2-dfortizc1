@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: -utf8 -*-
+
 from turtle import *
 from math import *
 
@@ -43,3 +46,5 @@ while(n1<p1):
     penup()
     poligono1(xy1,n1,1+n1,beta1)
     n1+=1
+
+exitonclick()

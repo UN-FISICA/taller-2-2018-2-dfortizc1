@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: -utf8 -*-
+
 from turtle import *
 from math import *
 
@@ -44,3 +47,5 @@ while(n1<p1):
     right(-90)
     forward((n1*r2)+r2)
     n1+=1
+
+exitonclick()
